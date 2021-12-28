@@ -81,7 +81,7 @@
 }
 
 .product-details h4 a:hover ,.value {
-  color: #19a70c;
+  color: #f5331a;
 }
 
 .product-details p {
@@ -126,6 +126,6 @@
 
 .product-price {
   font-size: 18px;
-  color: #fbb72c;
+  color: #fb3a2c;
   font-weight: 600;
 }
