@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.navbar {
+  box-sizing: content-box;
+  width: 100vw;
+  padding:1rem 0;
+  position: sticky;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 2px #aaa;
+  justify-content: center;
+}
+
+.nav-brand {
+  color: #6200EE;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.main
+{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.product-card {
+  width: 80%;
+  position: relative;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 50px auto;
+  background: #fafafa;
+}
+
+.product-tumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 50px;
+  background: #f0f0f0;
+}
+
+.product-tumb img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-details {
+  padding: 30px;
+  min-height: 300px;
+  position: relative;
+}
+.category-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-catagory {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* color: #ccc; */
+  margin-bottom: 18px;
+}
+
+.product-details h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover ,.value {
+  color: #3dfb2c;
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+.btn
+{
+      width:100px !important;
+      background: dodgerblue;
+      color: #fff;
+      padding: 0.5rem;
+      text-align: center;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: .4s background;
+  }
+  .btn:hover
+  {
+    background-color: #363636;
+  }
+.product-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px ;
+  padding-left:1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom:1rem;
+  min-width: calc(100% - 60px);
+}
+
+.product-bottom-details div {
+  float: left;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #fbb72c;
+  font-weight: 600;
+}

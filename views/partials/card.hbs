@@ -1,0 +1,23 @@
+
+{{#each det}}
+
+<div class="product-card">
+
+      <div class="product-tumb">
+        <img src={{this.image}} alt="" />
+      </div>
+      <div class="product-details">
+        <div class="category-details">
+          <span class="product-catagory">{{this.category}}</span>
+          <span class="product-catagory"> Rating <span class="value">{{this.rating.rate}}</span></span>
+        </div>
+        <h4><a href="">{{this.title}}</a></h4>
+        <p>{{this.description}}</p>
+        <div class="product-bottom-details">
+          <div class="product-price">${{this.price}}</div>
+          <div class="btn">Buy</div>
+        </div>
+      </div>
+    </div>
+
+{{/each}}
